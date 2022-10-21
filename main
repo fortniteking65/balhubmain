@@ -1,0 +1,7 @@
+if game.PlaceId == 10675066724 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Slime-Tower-Tycoon/main/BalHub'))()
+elseif game.PlaceId == 6897226634 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/BalHub/main/Timber!'))()
+elseif game.PlaceId == game.PlaceId then
+    print("NO GAME")
+end
