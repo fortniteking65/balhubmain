@@ -8,6 +8,16 @@ elseif game.PlaceId == 6897226634 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/MergeSimulator/main/Main'))()
         elseif game.PlaceId == 9625096419 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Tapper-Simulator/main/Main'))()
+        elseif game.PlaceId == 6516141723 then
+    wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Error"; -- the title (ofc)
+Text = "Please Execute in the correct game.";
+Icon = "rbxassetid://0";
+Duration = 30;
+})
+        elseif game.PlaceId == 6839171747 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/doorsbalhub/main/doors'))()
 elseif game.PlaceId == game.PlaceId then
     print("NO GAME")
 end
