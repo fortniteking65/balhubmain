@@ -6,6 +6,8 @@ elseif game.PlaceId == 6897226634 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Idle-Heroes/main/Main'))()
         elseif game.PlaceId == 10925589760 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/MergeSimulator/main/Main'))()
+        elseif game.PlaceId == 10925589760 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Tapper-Simulator/main/Main'))()
 elseif game.PlaceId == game.PlaceId then
     print("NO GAME")
 end
