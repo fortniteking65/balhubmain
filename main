@@ -20,6 +20,8 @@ Duration = 30;
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/doorsbalhub/main/doors'))()
             elseif game.PlaceId == 10676523834 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/Racing-Rocket/main/Main'))()
+                elseif game.PlaceId == 286090429 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fortniteking65/arsenal/main/main'))()
 elseif game.PlaceId == game.PlaceId then
     print("NO GAME")
 end
